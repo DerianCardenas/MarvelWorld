@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    color: white;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia;
+    font-size: 18px;
+    font-weight:normal;
+    background: #333;
+}
+header{
+    background: rgb(133, 14, 14);
+    width: 100%;
+    border-bottom: 1px solid #333;
+    box-shadow: 5px 0 10px rgba(0, 0, 0, 1.6);
+}
+.logo-cont{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.logo-cont img{
+    margin-left: 30px;
+    width: 30%;
+    height: 60px;
+    display: inline-flex;
+}
+.logo-cont .logo{
+    color: #CDD9D5;
+    font-size: 20px;
+    padding: 2rem;
+}
+.logo-cont .logo a {
+    text-decoration: none;
+}
+.imglogo{
+    width: 20%;
+    height: 90%;
+    margin: auto auto;
+}
+.btn_menu{
+    position: absolute;
+    top: .5rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+}
+.btn_menu .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+.menu{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu_items{
+    display: flex;
+    list-style: none;
+    margin-right: 50px;
+}
+.menu_items li{
+    border-radius: 3px;
+    margin: 0 5px;
+    transition: all .4s linear;
+}
+.menu_items li:hover{
+    background-color: #4a4a4a;
+}
+.menu_items li a{
+    padding: 7px 13px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    text-transform: capitalize;
+    color: #CDD9D5;
+}
+footer{
+    background-color: #633434;
+  }
+  .down-p{
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    height: 50px;
+  }
+  .down-p img{
+    position: relative;
+    height: 1.5rem;
+    width: 2.5rem;
+    margin: 0 auto;
+  }
+@media (max-width:1000px){
+    }
+@media (max-width:800px){
+    
+    .btn_menu{
+        display: flex;
+        top: 1.75rem;
+    }
+    .menu_items{
+        display: none;
+        width: 100%;
+    }
+    }
+@media (max-width:640px) {
+        .menu{
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        .active{
+            display: block;
+            margin: 0;
+            flex-direction: column;
+        }
+        .menu_items li a{
+            text-align: center;
+            font-size: 16px;
+        }
+    }
+@media (max-width: 580px){
+        .logo-cont .logo{
+            color: #CDD9D5;
+            font-size: 18px;
+            padding: 0;
+        }
+    }
+@media (max-width:400px){
+    }

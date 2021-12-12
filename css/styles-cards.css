@@ -1,0 +1,99 @@
+.cont{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    margin: 5% 5%;
+}
+.flip-container {
+    background-color: transparent;
+    width: 250px;
+    height: 250px;
+    perspective: 1000px;
+    margin:0 auto;
+  }
+  
+  .card {
+    position: relative;
+    display:inline-block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transform-style: preserve-3d;
+    transition: transform 0.8s cubic-bezier(0.75, 0, 0.85, 1);
+  }
+  .card img{
+      width: 150px;
+      height: 150px;
+  }
+  .card h3, card p {
+    display:block; 
+  } 
+  
+  .card p, .card button { 
+    color:#FFF; 
+  }
+  
+  .imgcont{
+      width: auto;
+      height: auto;
+      margin: 5px auto;
+  }
+  /* GIRA HORIZONTAL */
+  .flip-container:hover .card {
+    transform: rotateY(180deg);
+  }
+  
+  
+  /* GIRA VERTICAL 
+  .flip-container:hover .card {
+    transform: rotateX(180deg);
+  }
+  */  
+  .frente, .dorso {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    /*align-items: center;
+    justify-content: center;*/
+  }
+  
+  .frente {
+    background-color: rgb(133, 14, 14);
+    color: #fff;
+    display: block;
+    align-items: center;
+    font-size: 25px;
+  }
+  
+  .dorso {
+    background-color: rgb(133, 14, 14);
+    color: #faebd7;
+    /*transform: rotateX(180deg);*/
+    transform: rotateY(180deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    font-size: 18px;
+  }
+  
+  .dorso p {
+      text-align: center;
+  }
+  
+ /* .dorso button { 
+    display:block; 
+    width:60%; 
+    margin:2rem auto 0; 
+    border:2px solid #fff;
+    background:transparent;
+    padding:1em;
+    text-transform:uppercase;
+  }
+  
+  .dorso button:hover {
+    color:#5f127c;
+    border-color:#5f127c;
+    font-weight:bold;
+  }*/
