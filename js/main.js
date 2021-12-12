@@ -12,11 +12,9 @@ const header = ()=>{
     menu = document.querySelector('.menu_items');
     menuBtn.addEventListener('click',()=>{
         if(menu.classList.contains("active")){
-            alert("Cerrando menú");
             menu.classList.remove("active");
         }
         else{
-            alert("Abriendo menu");
             menu.classList.add("active");
         }
     });
