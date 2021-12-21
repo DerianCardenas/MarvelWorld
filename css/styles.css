@@ -11,7 +11,9 @@ body{
     font-family: Georgia;
     font-size: 18px;
     font-weight:normal;
-    background: #333;
+    background: whitesmoke;
+    display: block;
+    color: #333;
 }
 header{
     background: rgb(133, 14, 14);
@@ -101,6 +103,19 @@ footer{
     height: 1.5rem;
     width: 2.5rem;
     margin: 0 auto;
+  }
+  .info{
+      margin: 10px auto;
+      align-items: center;
+      display: flex;
+  }
+  .texto{
+      text-align: left;
+      color: #333;
+  }
+  .scan{
+      width: 200px;
+      height:300px;
   }
 @media (max-width:1000px){
     }
