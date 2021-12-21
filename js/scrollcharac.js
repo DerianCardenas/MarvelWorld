@@ -11,7 +11,7 @@ down.onclick=()=>{
 function loop(data){
     console.log(data);
     for(var i = 0; i < data.results.length; i++){
-        console.log(data.results[i]);
+        //console.log(data.results[i]);
         showChar(data.results[i]);
     }
 }
@@ -25,6 +25,7 @@ function showChar(char){
     let img = document.createElement('img');
     let text = document.createElement('p');
     let textinfo = document.createElement('p');
+    let mas = document.createElement('a');
     flipcont.className="flip-container";
     card.className="card";
     frente.className="frente";
@@ -38,10 +39,14 @@ function showChar(char){
         textinfo.innerText="Information Not Found.."
     else
         textinfo.innerText=char.description;
+    mas.href="#";
+    mas.className="btnMas";
+    mas.innerText="Ver más";
     imgCont.appendChild(img);
     frente.appendChild(imgCont);
     frente.appendChild(text);
     dorso.appendChild(textinfo);
+    //dorso.appendChild(mas);
     card.appendChild(dorso);
     card.appendChild(frente);
     flipcont.appendChild(card);
