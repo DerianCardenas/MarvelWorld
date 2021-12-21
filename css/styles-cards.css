@@ -97,3 +97,19 @@
     border-color:#5f127c;
     font-weight:bold;
   }*/
+  .btnMas{
+    color: #FFF;
+    font-size: 15pt;
+    font-family: 'arial';
+    letter-spacing: 1px;
+    padding: 10px 50px;
+    border: 1px solid #CCC;
+    background: rgba(13, 13, 13, 0.55);
+    border-radius: 31px;
+    text-decoration: none;
+    transition: .5s all;
+}
+.btnMas:hover{
+    background: #111;
+    border: 1px solid #111;
+}
