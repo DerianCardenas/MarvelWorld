@@ -1,7 +1,7 @@
 let down = document.querySelector('.down-p');
-let limit =100, offset =100 , cont=1;
+let limit =20, offset =100 , cont=1;
 down.onclick=()=>{
-    fetch("http://gateway.marvel.com/v1/public/characters?ts=1000&apikey=2a63f5bcddf74a9597df7407e5cc6a4b&hash=674805c8f6220783eb43e645e46b5ede&offset="+offset*cont+"&limit="+limit, {
+    fetch("http://gateway.marvel.com/v1/public/characters?ts=1000&apikey=2a63f5bcddf74a9597df7407e5cc6a4b&hash=674805c8f6220783eb43e645e46b5ede&offset="+(offset+limit*cont)+"&limit="+limit, {
             "method": "GET"
         })
         .then(response => response.json())
