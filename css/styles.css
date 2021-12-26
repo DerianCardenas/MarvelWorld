@@ -107,12 +107,7 @@ footer{
       margin: 10px auto;
       align-items: center;
       display: flex;
-  }
-  .info .izq{
-    align-self: flex-start;
-  }
-  .info .der{
-      align-self: flex-end;
+      border-top: whitesmoke;
   }
   .info:hover{
     background-color: #333;
@@ -123,8 +118,7 @@ footer{
       text-align: justify;
       color: whitesmoke;
       font-size: 24px;
-      margin-left: 2%;
-      margin-right: 5%;
+      margin: 0 2%;
   }
   
   .izq{
@@ -136,13 +130,10 @@ footer{
   .scanV{
       width: 250px;
       height:350px;
-      margin-left: 4%;
-      margin-top: 0;
   }
   .scanH{
       width: 300px;
       height: 175px;
-      margin-left: 4%;
       margin-top: 0;
   }
 @media (max-width:1000px){
