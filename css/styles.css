@@ -8,9 +8,9 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: Georgia;
     font-size: 18px;
     font-weight:normal;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background: rgb(80, 80, 80);
     display: block;
 }
@@ -19,6 +19,7 @@ header{
     width: 100%;
     border-bottom: 1px solid #333;
     box-shadow: 5px 0 10px rgba(0, 0, 0, 1.6);
+    font-family: 'Courier New', Courier, monospace;
 }
 .logo-cont{
     align-items: center;
@@ -34,6 +35,7 @@ header{
 .logo-cont .logo{
     color: #CDD9D5;
     font-size: 20px;
+    font-weight: bolder;
     padding: 2rem;
 }
 .logo-cont .logo a {
@@ -83,10 +85,11 @@ header{
 .menu_items li a{
     padding: 7px 13px;
     text-decoration: none;
-    font-size: 18px;
     display: block;
     text-transform: capitalize;
     color: #CDD9D5;
+    font-size: 20px;
+    font-weight: bolder;
 }
 footer{
     background-color: #633434;
@@ -108,6 +111,7 @@ footer{
       align-items: center;
       display: flex;
       border-top: whitesmoke;
+      box-shadow: 5px 0 10px rgba(0, 0, 0, .15);
   }
   .info:hover{
     background-color: #333;
@@ -136,6 +140,29 @@ footer{
       height: 175px;
       margin-top: 0;
   }
+  .cont_swiper{
+      display: flex;
+      justify-content: space-between;
+  }
+  .swiper{
+      width: 240px;
+      height: 380px;
+  }
+  .swiper-slide{
+      display: flex;
+      justify-content: center;
+      border-radius: 10px;
+      font-size: 22px;
+      font-weight: bold;
+  }
+  .info-swip{
+      max-width: 40%;   
+      margin: 10% 10% 10% 5%;
+  }
+  .texto-swip{
+      font-size: 20px;
+      text-align: justify;
+  }
 @media (max-width:1000px){
     }
 @media (max-width:800px){
@@ -161,6 +188,7 @@ footer{
         text-align: center;
         font-size: 16px;
     }
+
 }
 @media (max-width:640px) {
        
