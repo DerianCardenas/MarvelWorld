@@ -12,6 +12,7 @@ body{
     font-weight:normal;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background: rgb(80, 80, 80);
+    /*background-image: url('/assets/back_patt.png') repeat;*/
     display: block;
 }
 header{
@@ -121,10 +122,12 @@ footer{
   .texto{
       text-align: justify;
       color: whitesmoke;
-      font-size: 24px;
+      line-height: 24px;
+      font-size: 20px;
       margin: 0 2%;
+      font-family: 'Aclonica';
+      font-weight:lighter
   }
-  
   .izq{
       display: flex;
   }
@@ -154,14 +157,27 @@ footer{
       border-radius: 10px;
       font-size: 22px;
       font-weight: bold;
+      text-align: justify;
   }
   .info-swip{
       max-width: 40%;   
       margin: 10% 10% 10% 5%;
+      font-size: 22px;
   }
   .texto-swip{
-      font-size: 20px;
+      font-size: 18px;
+      font-family: 'Aclonica';
+      line-height: 25px;
       text-align: justify;
+  }
+  .banner{
+      width: 80%;
+      height: 80%;
+  }
+  li.item{
+      list-style: circle;
+      display: block;
+      list-style-position: outside;
   }
 @media (max-width:1000px){
     }
@@ -180,7 +196,7 @@ footer{
         align-items: flex-start;
     }
     .active{
-        display: block;
+        display: flex;
         margin: 0;
         flex-direction: column;
     }
