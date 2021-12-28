@@ -10,6 +10,7 @@
     height: 300px;
     perspective: 1000px;
     margin:0 auto;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.315);
   }
   
   .card {
