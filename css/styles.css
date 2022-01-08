@@ -212,6 +212,7 @@ footer{
     .btn_menu{
         display: flex;
         top: 1.75rem;
+        right: 1.5rem;
     }
     .menu_items{
         display: none;
@@ -233,6 +234,10 @@ footer{
 
 }
 @media (max-width:640px) {
+    .btn_menu{
+        top: 1.25rem;
+        right: 2.5rem;
+    }
     .logo-cont .logo{
         color: #CDD9D5;
         font-size: 18px;
@@ -287,6 +292,7 @@ footer{
        
     }
 @media (max-width: 580px){
+    
         .cont_swiper{
             display: block;
         }
@@ -332,6 +338,10 @@ footer{
         ol li{
             font-size: .55rem;
             line-height: 14px;
+            }
+        .swiper{
+            width: 160px;
+            height: 253px;
         }
     }
 @media (max-width:400px){
@@ -369,5 +379,9 @@ footer{
         ol li{
             font-size: .55rem;
             line-height: 14px;
+        }
+        .btn_menu{
+            top: 1.25rem;
+            right: 2rem;
         }
     }
