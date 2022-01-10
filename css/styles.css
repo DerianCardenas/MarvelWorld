@@ -128,7 +128,8 @@ header{
       line-height: 24px;
       font-size: 20px;
       margin: 0 2%;
-      font-family: 'Aclonica';
+      /*font-family: 'Aclonica';*/
+      font-family: 'Aleo';
       font-weight:lighter
 }
 .texto2{
@@ -137,7 +138,8 @@ header{
     line-height: 25px;
     font-size: 20px;
     margin: 2% 5%;
-    font-family: 'Aleo';font-size: 22px;
+    font-family: 'Aleo';
+    font-size: 22px;
 }
 .izq .der{
       display: flex;
@@ -165,8 +167,9 @@ header{
       font-size: 22px;
 }
 .texto-swip{
-      font-size: 18px;
-      font-family: 'Aclonica';
+      font-size: 22px;
+      /*font-family: 'Aclonica';*/
+      font-family: 'Aleo';
       line-height: 25px;
       text-align: justify;
 }
@@ -205,6 +208,7 @@ footer{
   
   #myBtn:hover {
     background-color: #555; /* Add a dark-grey background on hover */
+    transition: .75s linear;
   }
 @media (max-width:1000px){
     }
