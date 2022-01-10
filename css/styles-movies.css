@@ -57,6 +57,7 @@
     transform: translateY(0);
     font-size: 20px;
     text-align: center;
+    padding: 10px;
 }
 .description2 {
     transition: .2s;
@@ -118,6 +119,11 @@
     /* transition effect. not necessary */
     transition: opacity 1s, visibility 1s;
 }
+@media (max-width:1200px) {
+ .description{
+    font-size: .85rem;  
+ }
+}
 @media (max-width:1000px) {
     
  .description{
@@ -134,6 +140,9 @@
     }
 }
 @media (max-width:600px) {
+    .container{
+        grid-template-columns: 1fr;
+    }
  .description{
      font-size: .60rem;
  }
@@ -147,6 +156,7 @@
     font-size: .51rem;
  }
  .description{
+     padding: 2px;
      font-size: .51rem;
  }
  .description2{
