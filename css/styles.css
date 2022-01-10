@@ -23,9 +23,9 @@ body{
     height:350px;
 }
 .scanH{
-    width: 300px;
-    height: 175px;
-    margin-top: 0;
+    width: 400px;
+    height: 225px;
+    padding: 10px;
 }
 /* HEADER - NAV */
 header{
@@ -313,8 +313,8 @@ footer{
             display: flex;
         }
         .scanH{
-            width: 150px;
-            height: 100px;
+            width: 250px;
+            height: 150px;
             margin: 0 auto;
         }
         .logo-cont{
@@ -342,6 +342,7 @@ footer{
         .swiper{
             width: 160px;
             height: 253px;
+            padding: 10px;
         }
     }
 @media (max-width:400px){
@@ -354,8 +355,8 @@ footer{
             display: flex;
         }
         .scanH{
-            width: 150px;
-            height: 100px;
+            width: 250px;
+            height: 150px;
             margin: 0 auto;
         }
         .logo-cont{
