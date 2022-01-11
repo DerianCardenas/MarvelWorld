@@ -1,0 +1,73 @@
+.container2{
+    display: flex;
+    padding: 2% 5%;
+    align-items: center;
+    justify-items: center;
+}
+.scanC{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
+.description3{
+    font-size: 20px;
+    font-family: 'Aleo';
+}
+.gamescont{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 5% 2%;
+}
+.game {
+    margin: 5% 10%;
+    position: relative;
+    display: inline-block;
+}
+  
+.gameimg {
+    vertical-align: bottom;
+    width: 100%;
+    height: 100%;
+}
+  
+.gameinfo {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(49, 48, 48, 0.7);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* transition effect. not necessary */
+    transition: opacity 1s, visibility 1s;
+}
+  
+.game:hover .gameinfo {
+    visibility: visible;
+    opacity: 1;
+}
+  
+.gamedesc {
+    transition: .2s;
+    transform: translateY(0);
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+.description2 {
+    transition: .2s;
+    transform: translateY(0);
+    font-size: 30px;
+    text-align: center;
+}
+  
+.game:hover .gamedesc {
+    transform: translateY(0);
+}
