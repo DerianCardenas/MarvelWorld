@@ -55,6 +55,13 @@ header{
 .logo-cont .logo a {
     text-decoration: none;
 }
+h2{
+    color: rgb(185, 157, 160);
+    padding-left: 2em;
+    padding-top: 2em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
 .imglogo{
     width: 20%;
     height: 90%;
@@ -229,6 +236,7 @@ footer{
     .active{
         display: flex;
         margin: 0;
+        transition: 1.5s all ease-in;
         flex-direction: column;
     }
     .menu_items li a{
