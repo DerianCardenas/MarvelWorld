@@ -10,9 +10,11 @@
     height: 300px;
     perspective: 1000px;
     margin:0 auto;
+  }
+  .flip-container:hover{
+    
     box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.315);
   }
-  
   .card {
     position: relative;
     display:inline-block;
@@ -54,6 +56,8 @@
   */  
   .frente, .dorso {
     position: absolute;
+    border-top-left-radius: 2em;
+    border-bottom-right-radius: 2em;
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
