@@ -11,10 +11,6 @@
     perspective: 1000px;
     margin:0 auto;
   }
-  .flip-container:hover{
-    
-    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.315);
-  }
   .card {
     position: relative;
     display:inline-block;
@@ -27,6 +23,7 @@
   }
   .card img{
       width: 180px;
+      box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.315);
       height: 180px;
       border-radius: 10%;
   }
