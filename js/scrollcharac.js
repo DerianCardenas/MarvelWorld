@@ -33,8 +33,7 @@ function showChar(char){
     imgCont.className="imgCont";
     let source = char.thumbnail.path+"."+char.thumbnail.extension;
     img.src=source;
-    text.innerText=char.id+" "+char.name;
-    textinfo.innerText="Hero Identifier: "+char.id+" "
+    text.innerText="Character ID: "+char.id+"\n Name: "+char.name;
     if(char.description=="")
         textinfo.innerText="Information Not Found.."
     else
