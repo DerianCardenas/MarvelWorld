@@ -179,7 +179,6 @@ h2{
 .texto-swip{
       font-size: 22px;
       /*font-family: 'Aclonica';*/
-      font-family: 'Aleo';
       line-height: 25px;
       text-align: justify;
 }
@@ -231,7 +230,6 @@ footer{
     }
     .menu_items{
         display: none;
-        width: 100%;
     }
     .menu{
         flex-direction: column;
@@ -239,9 +237,13 @@ footer{
     }
     .active{
         display: flex;
-        margin: 0;
-        transition: 1.5s all ease-in;
+        margin: auto auto;
+        margin-bottom: 1em;
+        width: 95%;
         flex-direction: column;
+    }
+    .menu_items li{
+        border-radius: 1em;
     }
     .menu_items li a{
         text-align: center;
@@ -385,12 +387,10 @@ footer{
             display: none;
         }
         .texto{
-            font-size: .6rem;
-            line-height: 15px;
+            font-size: 1rem;
         }
         .texto2{
-            font-size: .6rem;
-            line-height: 15px;
+            font-size: 1rem;
         }
         ol li{
             font-size: .55rem;
