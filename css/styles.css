@@ -220,9 +220,8 @@ footer{
     background-color: white; /* Add a dark-grey background on hover */
     color: crimson;
   }
-@media (max-width:1000px){
-    }
-@media (max-width:900px){
+@media (max-width:800px) {
+    
     .btn_menu{
         display: flex;
         top: 1.75rem;
@@ -249,10 +248,6 @@ footer{
         text-align: center;
         font-size: 16px;
     }
-
-}
-@media (max-width:800px) {
-    
     .cont_swiper{
         display: block;
     }
